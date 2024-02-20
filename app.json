@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Colonia Segura",
+    "slug": "Colonia-Segura",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/proteger.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.uziel11.ColoniaSegura"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df197fcf-7e10-4d50-9a97-2e9cc7494399"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/df197fcf-7e10-4d50-9a97-2e9cc7494399"
+    }
+  }
+}
